@@ -1,0 +1,18 @@
+2015-06-19 | 10:34:06 | Database insert error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Desc,Isle,Price) VALUES ('1','Apples','3','1.4')' at line 1
+2015-06-19 | 10:36:57 | Database insert error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Desc,Isle,Price) VALUES ('1','Apples','3','1.4')' at line 1[INSERT INTO Items (ID,Desc,Isle,Price) VALUES ('1','Apples','3','1.4')]
+2015-06-19 | 10:38:50 | Database insert error in C:\xampp\htdocs\FridayTraining\DBGateway.php Duplicate entry '1' for key 'PRIMARY'[INSERT INTO Items (`ID`,`Desc`,`Isle`,`Price`) VALUES ('1','Apples','3','1.4')]
+2015-06-19 | 10:42:32 | Unknown error type C:\xampp\htdocs\FridayTraining\list.php:6 [8] Undefined variable: table
+
+2015-06-19 | 10:42:32 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-19 | 10:42:32 | Database select error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2015-06-19 | 10:43:40 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-19 | 10:44:34 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-19 | 10:44:34 | Database select error in C:\xampp\htdocs\FridayTraining\DBGateway.php Table 'shoppinglist.tems' doesn't exist
+2015-06-19 | 10:44:47 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-19 | 10:45:29 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-19 | 10:49:37 | Database update error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Desc = 'Crab Apples' WHERE ID = '1'' at line 1
