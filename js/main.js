@@ -13,16 +13,25 @@ app.controller('MainController', function ($scope, $http, $log) {
         $scope.item = "";
     };
     $scope.ListOptions = ["Fruit", "Vegetables", "Default"];
-    $scope.getList = function (type) {
+    $scope.create = function () {
+
+    };
+    $scope.read = function (isle) {
         $http({
             url: "list.php",
             method: "GET",
-            params: {'Type': type} //, 'filter' : {'Year': '2014'}
+            params: {'action': 'Read', 'table': 'Items', 'where': {'Isle': isle}} //, 'filter' : {'Year': '2014'}
         }).success(function (data) {
             $scope.List = data;
         }).error(function (data) {
             console.log(data);
         });
+    };
+    $scope.update = function () {
+
+    };
+    $scope.delete = function () {
+
     };
 });
 //MenuController

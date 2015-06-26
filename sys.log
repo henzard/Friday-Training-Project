@@ -16,3 +16,22 @@
 2015-06-19 | 10:45:29 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
 
 2015-06-19 | 10:49:37 | Database update error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Desc = 'Crab Apples' WHERE ID = '1'' at line 1
+2015-06-26 | 10:49:38 | Fatal error: C:\xampp\htdocs\FridayTraining\list.php:15 [1] Call to undefined function echojson_encode()
+
+2015-06-26 | 10:50:27 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-26 | 10:50:27 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:122 [8] Undefined variable: where
+
+2015-06-26 | 10:50:27 | Database select error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2015-06-26 | 10:50:36 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-26 | 10:50:36 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:122 [8] Undefined variable: where
+
+2015-06-26 | 10:50:36 | Database select error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2015-06-26 | 10:51:27 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:118 [2] Invalid argument supplied for foreach()
+
+2015-06-26 | 10:51:27 | Unknown error type C:\xampp\htdocs\FridayTraining\DBGateway.php:122 [8] Undefined variable: where
+
+2015-06-26 | 10:51:27 | Database select error in C:\xampp\htdocs\FridayTraining\DBGateway.php You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2015-06-26 | 10:56:21 | Fatal error: xdebug://debug-eval:1 [4] syntax error, unexpected 'Isle' (T_STRING)
+

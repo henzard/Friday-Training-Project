@@ -1,0 +1,3 @@
+[26-Jun-2015 10:49:38 Europe/Berlin] PHP Fatal error:  Call to undefined function echojson_encode() in C:\xampp\htdocs\FridayTraining\list.php on line 15
+[26-Jun-2015 10:49:38 Europe/Berlin] PHP Stack trace:
+[26-Jun-2015 10:49:38 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\FridayTraining\list.php:0

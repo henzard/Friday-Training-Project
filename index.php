@@ -58,15 +58,16 @@
     <!-- Page Content -->
     <div class="container" ng-controller="MainController">
 
+      
       <div class="row">
 
         <div class="col-md-3">
-          <p class="lead">Shop Name</p>
+          <p class="lead">Shop Isle</p>
           <div class="list-group">
-            <button class="list-group-item form-control" ng-click="getList('Fruit')">Fruit</button>
-            <button class="list-group-item form-control" ng-click="getList('Vegetables')">Vegetables</button>
-            <button class="list-group-item form-control" ng-click="getList('default')">default</button>
-            <select class="form-control" ng-model="options" ng-options="item for item in ListOptions" ng-change="getList(options)"></select>
+            <button class="list-group-item form-control" ng-click="read('1')">1</button>
+            <button class="list-group-item form-control" ng-click="read('2')">2</button>
+            <button class="list-group-item form-control" ng-click="read('3')">3</button>
+            <button class="list-group-item form-control" ng-click="read('4')">4</button>
           </div>
         </div>
 
