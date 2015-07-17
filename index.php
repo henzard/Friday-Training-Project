@@ -13,6 +13,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="js/datatables/css/jquery.dataTables.css" rel="stylesheet" type="text/css"/>
+    <link href="js/datatables/css/jquery.dataTables_themeroller.css" rel="stylesheet" type="text/css"/>
 
     <!-- Custom CSS -->
     <link href="css/shop-homepage.css" rel="stylesheet">
@@ -47,7 +49,7 @@
             <li ng-repeat="menu in menus">
               <a href="{{menu.Url}}">{{menu.Name}}</a>
             </li>
-            
+
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -58,7 +60,7 @@
     <!-- Page Content -->
     <div class="container" ng-controller="MainController">
 
-      
+
       <div class="row">
 
         <div class="col-md-3">
@@ -83,17 +85,33 @@
                     <div class="input-group">
                       <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                       <input type="text" class="form-control" id="inputfield1" placeholder="Input 1" ng-model="item" required> </div>
-                      <input type="submit" value="" class="hidden"/>
+                    <input type="submit" value="" class="hidden"/>
                   </div>
                 </div>
                 <div class="form-group">
-                  <shoppinglist model="List" name="Shopping List" suffix="danger"></shoppinglist>
-                  
+                  <table datatable="" class="table table-responsive">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Product Name</th>
+                        <th>Isle</th>
+                        <th>Price</th>
+                        <th>Change %</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr ng-repeat="l in List track by $index">
+                        <td>{{l.id}}</td>
+                        <td>{{l.productDesc}}</td>
+                        <td>{{l.isle}}</td>
+                        <td>{{l.price}}</td>
+                        <td>5%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
                 </div>
-                <div class="form-group">
-                  <shoppinglist model="List" name="Shopping List" suffix="success"></shoppinglist>
-                  
-                </div>
+
 
               </form>
 
@@ -122,9 +140,17 @@
       </footer>
 
     </div>
+
     <!-- /.container -->
     <script src="js/angular.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/datatables/js/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="bower_components/angular-datatables/dist/angular-datatables.min.js" type="text/javascript"></script>
+
+    <script>
+                        
+    </script>
   </body>
 
 </html>
